@@ -1,0 +1,28 @@
+body{
+  background-color: #f7e2a9;
+}
+
+#aboutme{
+  padding-left: .5%;
+  opacity: 0;
+  transition: opacity 2s ease-in-out;
+}
+#header{
+  font-size: 25px;
+  position: center;
+  padding-left: .5%;
+  padding-top: 2%;
+}
+
+#cursor{
+  display: inline-block;
+  width: 10px;
+  height: 20px;
+  background-color: black;
+  margin-left: 5px;
+  animation: blink 1s step-start infinite;
+}
+
+@keyframes blink{
+  50% { opacity: 0;}
+}
